@@ -1,6 +1,6 @@
 import express, { application } from 'express';
 import {v4 as uuidv4} from 'uuid';
-import { createUser } from '../controllers/users';
+import { createUser } from '../controllers/users.js';
 
 uuidv4(); // unique identifier uuid
 
